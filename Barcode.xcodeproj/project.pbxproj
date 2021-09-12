@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38BB030226EE065A00F4F7FE /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BB030126EE065A00F4F7FE /* MainPageView.swift */; };
+		38BB030326EE065A00F4F7FE /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BB030126EE065A00F4F7FE /* MainPageView.swift */; };
+		38BB030426EE065A00F4F7FE /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BB030126EE065A00F4F7FE /* MainPageView.swift */; };
 		38FCBDFF26EDCD2E00224B13 /* BarcodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCBDFE26EDCD2E00224B13 /* BarcodeApp.swift */; };
 		38FCBE0126EDCD2E00224B13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCBE0026EDCD2E00224B13 /* ContentView.swift */; };
 		38FCBE0326EDCD2E00224B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FCBE0226EDCD2E00224B13 /* Assets.xcassets */; };
@@ -39,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38BB030126EE065A00F4F7FE /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
 		38FCBDFB26EDCD2E00224B13 /* Barcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FCBDFE26EDCD2E00224B13 /* BarcodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeApp.swift; sourceTree = "<group>"; };
 		38FCBE0026EDCD2E00224B13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 				38FCBE0726EDCD2E00224B13 /* Info.plist */,
 				38FCBE0426EDCD2E00224B13 /* Preview Content */,
 				38FCBE2926EDD1F200224B13 /* LoginView.swift */,
+				38BB030126EE065A00F4F7FE /* MainPageView.swift */,
 			);
 			path = Barcode;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 			files = (
 				38FCBE2A26EDD1F200224B13 /* LoginView.swift in Sources */,
 				38FCBE0126EDCD2E00224B13 /* ContentView.swift in Sources */,
+				38BB030226EE065A00F4F7FE /* MainPageView.swift in Sources */,
 				38FCBDFF26EDCD2E00224B13 /* BarcodeApp.swift in Sources */,
 				38FCBE3026EDD23000224B13 /* LoginComponents.swift in Sources */,
 			);
@@ -290,6 +296,7 @@
 			files = (
 				38FCBE2B26EDD1F200224B13 /* LoginView.swift in Sources */,
 				38FCBE3126EDD23000224B13 /* LoginComponents.swift in Sources */,
+				38BB030326EE065A00F4F7FE /* MainPageView.swift in Sources */,
 				38FCBE1126EDCD2E00224B13 /* BarcodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +307,7 @@
 			files = (
 				38FCBE2C26EDD1F200224B13 /* LoginView.swift in Sources */,
 				38FCBE3226EDD23000224B13 /* LoginComponents.swift in Sources */,
+				38BB030426EE065A00F4F7FE /* MainPageView.swift in Sources */,
 				38FCBE1C26EDCD2F00224B13 /* BarcodeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
