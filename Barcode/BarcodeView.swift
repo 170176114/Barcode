@@ -1,5 +1,5 @@
 //
-//  MainPageView.swift
+//  BarcodeView.swift
 //  Barcode
 //
 //  Created by Pang on 12/9/2021.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct MainPageView: View {
+struct BarcodeView: View {
     var body: some View {
-        TabBar()
+        Text("Barcode")
     }
 }
 
-struct MainPageView_Previews: PreviewProvider {
+struct BarcodeView_Previews: PreviewProvider {
     static var previews: some View {
-        MainPageView()
+        BarcodeView()
     }
 }
