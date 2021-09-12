@@ -13,6 +13,12 @@
 		38FCBE0626EDCD2E00224B13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FCBE0526EDCD2E00224B13 /* Preview Assets.xcassets */; };
 		38FCBE1126EDCD2E00224B13 /* BarcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCBE1026EDCD2E00224B13 /* BarcodeTests.swift */; };
 		38FCBE1C26EDCD2F00224B13 /* BarcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCBE1B26EDCD2F00224B13 /* BarcodeUITests.swift */; };
+		38FCBE2A26EDD1F200224B13 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCBE2926EDD1F200224B13 /* LoginView.swift */; };
+		38FCBE2B26EDD1F200224B13 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCBE2926EDD1F200224B13 /* LoginView.swift */; };
+		38FCBE2C26EDD1F200224B13 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCBE2926EDD1F200224B13 /* LoginView.swift */; };
+		38FCBE3026EDD23000224B13 /* LoginComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCBE2F26EDD23000224B13 /* LoginComponents.swift */; };
+		38FCBE3126EDD23000224B13 /* LoginComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCBE2F26EDD23000224B13 /* LoginComponents.swift */; };
+		38FCBE3226EDD23000224B13 /* LoginComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCBE2F26EDD23000224B13 /* LoginComponents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,8 @@
 		38FCBE1726EDCD2F00224B13 /* BarcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FCBE1B26EDCD2F00224B13 /* BarcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeUITests.swift; sourceTree = "<group>"; };
 		38FCBE1D26EDCD2F00224B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FCBE2926EDD1F200224B13 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		38FCBE2F26EDD23000224B13 /* LoginComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginComponents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +103,13 @@
 		38FCBDFD26EDCD2E00224B13 /* Barcode */ = {
 			isa = PBXGroup;
 			children = (
+				38FCBE2E26EDD21700224B13 /* Components */,
 				38FCBDFE26EDCD2E00224B13 /* BarcodeApp.swift */,
 				38FCBE0026EDCD2E00224B13 /* ContentView.swift */,
 				38FCBE0226EDCD2E00224B13 /* Assets.xcassets */,
 				38FCBE0726EDCD2E00224B13 /* Info.plist */,
 				38FCBE0426EDCD2E00224B13 /* Preview Content */,
+				38FCBE2926EDD1F200224B13 /* LoginView.swift */,
 			);
 			path = Barcode;
 			sourceTree = "<group>";
@@ -128,6 +138,14 @@
 				38FCBE1D26EDCD2F00224B13 /* Info.plist */,
 			);
 			path = BarcodeUITests;
+			sourceTree = "<group>";
+		};
+		38FCBE2E26EDD21700224B13 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				38FCBE2F26EDD23000224B13 /* LoginComponents.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FCBE2A26EDD1F200224B13 /* LoginView.swift in Sources */,
 				38FCBE0126EDCD2E00224B13 /* ContentView.swift in Sources */,
 				38FCBDFF26EDCD2E00224B13 /* BarcodeApp.swift in Sources */,
+				38FCBE3026EDD23000224B13 /* LoginComponents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FCBE2B26EDD1F200224B13 /* LoginView.swift in Sources */,
+				38FCBE3126EDD23000224B13 /* LoginComponents.swift in Sources */,
 				38FCBE1126EDCD2E00224B13 /* BarcodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +298,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FCBE2C26EDD1F200224B13 /* LoginView.swift in Sources */,
+				38FCBE3226EDD23000224B13 /* LoginComponents.swift in Sources */,
 				38FCBE1C26EDCD2F00224B13 /* BarcodeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
