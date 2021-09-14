@@ -9,7 +9,9 @@ import SwiftUI
 
 struct MainPageView: View {
     var body: some View {
-        TabBar()
+        VStack {
+            TabBar()
+        }
     }
 }
 

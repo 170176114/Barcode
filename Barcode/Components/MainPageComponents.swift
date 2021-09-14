@@ -11,7 +11,7 @@ import SwiftUI
 struct TabBar: View {
     var body: some View {
         return TabView {
-            BarcodeView()
+            BarcodeViewView()
                 .tabItem {
                     Image(systemName: "barcode")
                     Text("Barcode")
@@ -23,4 +23,4 @@ struct TabBar: View {
                 }
         }
     }
-}
+}	

@@ -10,6 +10,7 @@ import SwiftUI
 struct ListViewView: View {
     var body: some View {
         Text("ListViewView")
+            .navigationBarHidden(true)
     }
 }
 
